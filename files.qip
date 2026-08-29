@@ -1,0 +1,17 @@
+set_global_assignment -name QIP_FILE rtl/psx.qip
+set_global_assignment -name QIP_FILE rtl/mem.qip
+set_global_assignment -name QIP_FILE rtl/pll2.qip
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/sdram.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ddram.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ddram_rotate_arb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/savestate_ui.sv
+set_global_assignment -name VERILOG_FILE rtl/hps_ext.v
+# ---- Z80 (T80): shared by the Capcom QSound sound CPU ----
+set_global_assignment -name QIP_FILE rtl/T80/T80.qip
+
+# ---- Capcom QSound sound subsystem: Z80 (T80) + DL-1425 DSP (jtdsp16) ----
+set_global_assignment -name QIP_FILE rtl/sound/jt_qsound/jtdsp16.qip
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/capcom_qsound.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/jtag_la.sv
+set_global_assignment -name SDC_FILE ZN1.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE ZN1.sv
