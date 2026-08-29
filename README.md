@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="art/XelaNotPu-LogoTransparent-GithubSocial.png" alt="ZN-2 MiSTer banner" width="220">
+  <img src="art/XelaNotPu-LogoTransparent-GithubSocial.png" alt="ZN-1 MiSTer banner" width="100%">
 </p>
 
 # ZN-2 for MiSTer — First Public Release (2026-08-28)
